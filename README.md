@@ -1,4 +1,4 @@
-# MachineLearningFoundations
+# Machine Learning Foundations
 
 In this repository I collect all the completed assignements of the course "Machine Learning" given by Andrew NG through Coursera.
 All the functions have been written by myself in Matlab by following the instructions given for each exercise and after the learning sections.
