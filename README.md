@@ -1,7 +1,7 @@
 # Machine Learning Foundations
 
-In this repository I collect all the completed assignements of the course "Machine Learning" given by Andrew NG through Coursera.
-All the functions have been written by myself in Matlab by following the instructions given for each exercise and after the learning sections.
+In this repository I collect all the completed assignements for the course "Machine Learning" given by Andrew NG through Coursera.
+All the functions have been written in Matlab by myself. I followed the instructions given for each exercise and in the learning sections.
 
 You can find here examples/functions about:
 
@@ -38,3 +38,29 @@ Neural network
 (The parameters theta are already trained in this exercise)
 
 - predict.m - predict the label of an input given a trained neural network
+
+4. NEURAL NETWORK LEARNING
+- displayData.m - Function to help visualize the dataset
+- fmincg.m - Function minimization routine (similar to fminunc) 
+- sigmoid.m - Sigmoid function
+- computeNumericalGradient.m - Numerically compute gradients 
+- checkNNGradients.m - Function to help check your gradients
+- debugInitializeWeights.m - Function for initializing weights 
+- predict.m - Neural network prediction function
+- sigmoidGradient.m - Compute the gradient of the sigmoid function 
+- randInitializeWeights.m - Randomly initialize weights
+- nnCostFunction.m - Neural network cost function
+
+This exercise is an implementation of a neural network model to recognize hand-written digits and goes through the whole process of training a nn:
+
+- Pick a n architecture
+- Random initialization of parameters/weights
+- Implementation of the Forward Propagation
+- Implementation of the cost function
+- Implementation of the Back Propagation
+- Gradient Checking
+- Minimization of the cost function
+- Prediction and accuracy
+
+
+
