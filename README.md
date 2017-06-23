@@ -62,5 +62,16 @@ This exercise is an implementation of a neural network model to recognize hand-w
 - Minimization of the cost function
 - Prediction and accuracy
 
+4. REGULARIZED LINEAR REGRESSION
+- linearRegCostFunction.m - Regularized linear regression cost function
+- trainLinearReg.m - Trains linear regression using your cost function to estimate theta 
+- polyFeatures.m - Maps data into polynomial feature space (from linear to polynomial model)
+- featureNormalize.m - Feature normalization function
+- fmincg.m - Function minimization routine (similar to fminunc) 
+- plotFit.m - Plot a polynomial fit
+- learningCurve.m - Generates a learning curve(Jtrain and Jcv)
+- validationCurve.m - Generates a cross validation curve
+
+In this exercise, one implements regularized linear regression to predict the amount of water flowing out of a dam using the change of water level in a reservoir. Then one goes through some diagnostics of debugging learning algorithms and examine the effects of bias v.s. variance.
 
 
